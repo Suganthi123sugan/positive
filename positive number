@@ -5,10 +5,9 @@ int main()
     int a;
     printf("Enter your number");
     scanf("%d",&a);
-    if (a>0)
-    printf("positive integer");
-    else if (a=0)
-    printf("Given number is zero");
+    if (a%2==0)
+    printf("Given number if even");
     else
-    printf("Given number is negative");
+    printf("Given number is odd");
 }
+
